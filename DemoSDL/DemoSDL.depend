@@ -1,0 +1,78 @@
+# depslib dependency file v1.0
+1742571615 source:c:\projects sdl\demosdl\sdl_utils.cpp
+	"SDL_Utils.h"
+	<iostream>
+
+1742833111 c:\projects sdl\demosdl\sdl_utils.h
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+
+1742569237 source:c:\projects sdl\demosdl\sdl_renderer.cpp
+	"SDL_Renderer.h"
+	"SDL_Utils.h"
+
+1742569245 c:\projects sdl\demosdl\sdl_renderer.h
+	<SDL.h>
+
+1742569329 source:c:\projects sdl\demosdl\sdl_texturemanager.cpp
+	"SDL_TextureManager.h"
+	<SDL_image.h>
+	<iostream>
+
+1742569313 c:\projects sdl\demosdl\sdl_texturemanager.h
+	<SDL.h>
+	<string>
+
+1743694002 source:c:\projects sdl\demosdl\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	"graphics.h"
+	"defs.h"
+	"player.h"
+	"enemy.h"
+	"powerup.h"
+
+1742639919 source:c:\projects sdl\demosdl\character.cpp
+
+1742869470 c:\projects sdl\demosdl\character.h
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+
+1743595998 source:c:\projects sdl\demosdl\graphics.cpp
+	"graphics.h"
+
+1743437348 c:\projects sdl\demosdl\graphics.h
+	"defs.h"
+
+1743672180 c:\projects sdl\demosdl\defs.h
+	<SDL.h>
+	<SDL_image.h>
+	<vector>
+	<algorithm>
+
+1743693828 source:c:\projects sdl\demosdl\player.cpp
+	"player.h"
+
+1743672202 c:\projects sdl\demosdl\player.h
+	"defs.h"
+	"graphics.h"
+	"powerup.h"
+	<vector>
+
+1743670511 source:c:\projects sdl\demosdl\enemy.cpp
+	"enemy.h"
+
+1743673511 c:\projects sdl\demosdl\enemy.h
+	"defs.h"
+	"graphics.h"
+
+1743670912 source:c:\projects sdl\demosdl\powerup.cpp
+	"powerup.h"
+
+1743673547 c:\projects sdl\demosdl\powerup.h
+	"defs.h"
+	"graphics.h"
+
